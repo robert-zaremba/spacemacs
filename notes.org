@@ -1,0 +1,30 @@
+* cleaning files
+
+recentf-cleanup
+https://emacs.stackexchange.com/questions/37191/how-to-clear-recent-files-list
+
+* truncating lines
+
+spacemacs/toggle-truncate-lines-off
+visual-line
+
+* font-lock mode
+
+Turn it on / off (by calling font-lock-mode) to turn off / on plain text mode (no extra formatting)
+
+* org-mode
+
++ org-toggle-link-display
+  -- to show links as a text
+
+
+
+
+
+
+* Troubleshooting
+
+** gpg
+
+https://emacs.stackexchange.com/questions/233/how-to-proceed-on-package-el-signature-check-failure
+gpg2 --homedir ~/.emacs.d/elpa/gnupg --receive-keys 066DAFCB81E42C40
