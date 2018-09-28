@@ -82,7 +82,7 @@ if used there.")
 ;; State cursors
 (defvar spacemacs-evil-cursors '(("normal" "DarkGoldenrod2" box)
                                  ("insert" "chartreuse3" (bar . 2))
-                                 ("emacs" "SkyBlue2" box)
+                                 ("emacs" "SeaGreen" box)
                                  ("hybrid" "SkyBlue2" (bar . 2))
                                  ("replace" "chocolate" (hbar . 2))
                                  ("evilified" "LightGoldenrod3" box)
