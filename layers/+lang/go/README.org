@@ -141,17 +141,20 @@ language backend, most are installed directly via =go get=:
 
 #+BEGIN_SRC sh
   GO111MODULE=on CGO_ENABLED=0 go get -v -trimpath -ldflags '-s -w' github.com/golangci/golangci-lint/cmd/golangci-lint
-  go get -u -v golang.org/x/tools/cmd/godoc
-  go get -u -v golang.org/x/tools/cmd/goimports
-  go get -u -v golang.org/x/tools/cmd/gorename
-  go get -u -v golang.org/x/tools/cmd/guru
-  go get -u -v github.com/cweill/gotests/...
-  go get -u -v github.com/davidrjenni/reftools/cmd/fillstruct
-  go get -u -v github.com/fatih/gomodifytags
-  go get -u -v github.com/godoctor/godoctor
-  go get -u -v github.com/haya14busa/gopkgs/cmd/gopkgs
-  go get -u -v github.com/josharian/impl
-  go get -u -v github.com/rogpeppe/godef
+  go get -u -v golang.org/x/tools/cmd/godoc \
+    golang.org/x/tools/cmd/goimports \
+    golang.org/x/tools/cmd/gorename \
+    golang.org/x/tools/cmd/guru \
+    github.com/cweill/gotests/... \
+    github.com/davidrjenni/reftools/cmd/fillstruct \
+    github.com/fatih/gomodifytags \
+    github.com/haya14busa/gopkgs/cmd/gopkgs \
+    github.com/josharian/impl \
+    github.com/mdempsky/gocode \
+    github.com/rogpeppe/godef \
+    github.com/jstemmer/gotags \
+    github.com/zmb3/gogetdoc \
+    github.com/lukehoban/go-outline 
 #+END_SRC
 
 * Configuration
